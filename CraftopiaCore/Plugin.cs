@@ -19,6 +19,8 @@ namespace CraftopiaCore
         {
             Instance = this;
             DontDestroyOnLoad(this);
+
+            UnityEngine.Debug.Log("Hello world!");
         }
     }
 }
